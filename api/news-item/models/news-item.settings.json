@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_items",
+  "info": {
+    "name": "info",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "newsTitle": {
+      "type": "string"
+    },
+    "newsDesc": {
+      "type": "text",
+      "required": true
+    },
+    "newsMedia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
