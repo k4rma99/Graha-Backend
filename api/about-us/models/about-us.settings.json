@@ -11,8 +11,29 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "aboutContent": {
+    "aboutPara1": {
       "type": "richtext"
+    },
+    "aboutPara2": {
+      "type": "richtext"
+    },
+    "aboutPara3": {
+      "type": "richtext"
+    },
+    "aboutPara4": {
+      "type": "richtext"
+    },
+    "mediaBox": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
