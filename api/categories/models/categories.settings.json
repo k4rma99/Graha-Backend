@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "Categories"
+    "name": "Categories",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,6 +20,9 @@
       "via": "categories",
       "collection": "blogs",
       "dominant": true
+    },
+    "color": {
+      "type": "string"
     }
   }
 }
