@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studio-banners",
+      "handler": "studio-banners.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studio-banners",
+      "handler": "studio-banners.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studio-banners",
+      "handler": "studio-banners.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
