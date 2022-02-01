@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contact-grids",
+      "handler": "contact-grid.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contact-grids/count",
+      "handler": "contact-grid.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contact-grids/:id",
+      "handler": "contact-grid.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/contact-grids",
+      "handler": "contact-grid.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contact-grids/:id",
+      "handler": "contact-grid.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contact-grids/:id",
+      "handler": "contact-grid.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

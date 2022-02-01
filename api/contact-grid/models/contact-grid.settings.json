@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_grids",
+  "info": {
+    "name": "Contact Grid"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactText": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    }
+  }
+}
