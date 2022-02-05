@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/loader-background",
+      "handler": "loader-background.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/loader-background",
+      "handler": "loader-background.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/loader-background",
+      "handler": "loader-background.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

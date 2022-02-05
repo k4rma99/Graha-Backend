@@ -60,6 +60,11 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "priority": {
+      "type": "integer",
+      "required": true,
+      "default": 1
     }
   }
 }
