@@ -26,6 +26,9 @@
     },
     "teamList": {
       "type": "richtext"
+    },
+    "associates": {
+      "type": "richtext"
     }
   }
 }
