@@ -28,6 +28,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
