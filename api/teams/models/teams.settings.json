@@ -35,6 +35,21 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "keyProjects": {
+      "type": "text"
+    },
+    "personalUrl": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
     }
   }
 }
