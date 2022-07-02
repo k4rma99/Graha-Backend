@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "meta_data",
+  "info": {
+    "name": "metaData"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 100,
+      "minLength": 10,
+      "unique": true
+    }
+  }
+}
