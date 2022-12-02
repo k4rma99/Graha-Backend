@@ -25,6 +25,23 @@
 //   });
 
 module.exports = ({ env }) => ({
+  "netlify-deployments": {
+    enabled: true,
+    config: {
+      accessToken: "ZoYFIJOTQADqnX-1P8ocvFseWpasz6Emjc8ZhIKWkRU",
+      sites: [
+        {
+          name: 'grahaadmin',
+          id: "34591704-8158-4a66-90f1-6259e3a6ead1",
+          buildHook: "https://api.netlify.com/build_hooks/6389bdafc792c352a532620b",
+          branch: 'master' // optional
+        }
+      ]
+    },
+  },
+});
+
+module.exports = ({ env }) => ({
   // ...
   upload: {
     config: {
