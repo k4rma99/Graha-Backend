@@ -1,8 +1,8 @@
 {  
     "provider": "aws-s3",  
     "providerOptions": {
-      "accessKeyId": "AKIAUGLKAS3LRNO73FWW",
-      "secretAccessKey": "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",
+      "accessKeyId": "AKIAUGLKAS3LUL3XOLON",
+      "secretAccessKey": "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",
       "region": "us-east-2",
       "params": {
         "Bucket": "graha"
